@@ -40,43 +40,7 @@ The system is composed of **one main API** and **three MVC panels**, all sharing
 1. **Receptionist** adds a new patient from the *Receptionist Panel* → request sent to the **API** → data saved to the database.  
 2. **Doctor** opens the *Doctor Panel* → sees the same patient record via the **API**.  
 3. **Admin** from the *Admin Panel* can view and manage doctors, departments, and monitor appointments — all from the same shared data.
-
----
-
-## 📂 Project Structure
-HospitalManagementSystem.sln
-│
-
-├── Hospital.Core
-
-│ ├── Entities
-│ ├── Dtos
-│ ├── IServices
-│ ├── IRepositories
-│ └── Specifications
-│
-
-├── Hospital.Repository
-│ ├── Data
-│ ├── Identity
-│ ├── Repositories
-│ └── SpecificationEvaluator.cs
-│
-├── Hospital.Service
-│ └── Services
-│
-├── HospitalManagementSystem (Main API)
-│ ├── Controllers
-│ ├── Middlewares
-│ ├── Helpers
-│ ├── Extensions
-│ └── Program.cs
-│
-├── AdminPanel
-├── DoctorPanel
-└── ReceptionistPanel
-
-
+4. 
 ---
 
 ## 🧠 Core Features

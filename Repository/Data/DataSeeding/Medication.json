@@ -1,0 +1,52 @@
+[
+  {
+    "Name": "Paracetamol",
+    "Description": "Used to relieve pain and reduce fever",
+    "Quantity": "200 tablets"
+  },
+  {
+    "Name": "Amoxicillin",
+    "Description": "Antibiotic used to treat bacterial infections",
+    "Quantity": "150 capsules"
+  },
+  {
+    "Name": "Ibuprofen",
+    "Description": "Anti-inflammatory drug used for pain relief",
+    "Quantity": "300 tablets"
+  },
+  {
+    "Name": "Cough Syrup",
+    "Description": "Used to relieve cough and throat irritation",
+    "Quantity": "75 bottles"
+  },
+  {
+    "Name": "Vitamin C",
+    "Description": "Boosts immune system and helps tissue repair",
+    "Quantity": "500 tablets"
+  },
+  {
+    "Name": "Metformin",
+    "Description": "Used to control high blood sugar in type 2 diabetes",
+    "Quantity": "250 tablets"
+  },
+  {
+    "Name": "Aspirin",
+    "Description": "Used for pain relief and heart disease prevention",
+    "Quantity": "400 tablets"
+  },
+  {
+    "Name": "Lisinopril",
+    "Description": "Used to treat high blood pressure",
+    "Quantity": "180 tablets"
+  },
+  {
+    "Name": "Omeprazole",
+    "Description": "Reduces stomach acid and treats ulcers",
+    "Quantity": "120 capsules"
+  },
+  {
+    "Name": "Cetirizine",
+    "Description": "Antihistamine used to relieve allergy symptoms",
+    "Quantity": "250 tablets"
+  }
+]

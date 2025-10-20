@@ -1,0 +1,62 @@
+[
+  {
+    "MedicalRecordId": 1,
+    "MedicationId": 1,
+    "Dosage": "500 mg",
+    "Frequency": "Twice daily"
+  },
+  {
+    "MedicalRecordId": 1,
+    "MedicationId": 2,
+    "Dosage": "250 mg",
+    "Frequency": "Three times daily"
+  },
+  {
+    "MedicalRecordId": 2,
+    "MedicationId": 3,
+    "Dosage": "200 mg",
+    "Frequency": "Once every 8 hours"
+  },
+  {
+    "MedicalRecordId": 2,
+    "MedicationId": 4,
+    "Dosage": "10 ml",
+    "Frequency": "Three times daily after meals"
+  },
+  {
+    "MedicalRecordId": 3,
+    "MedicationId": 5,
+    "Dosage": "1000 mg",
+    "Frequency": "Once daily"
+  },
+  {
+    "MedicalRecordId": 3,
+    "MedicationId": 6,
+    "Dosage": "500 mg",
+    "Frequency": "Twice daily with meals"
+  },
+  {
+    "MedicalRecordId": 4,
+    "MedicationId": 7,
+    "Dosage": "75 mg",
+    "Frequency": "Once daily"
+  },
+  {
+    "MedicalRecordId": 4,
+    "MedicationId": 8,
+    "Dosage": "10 mg",
+    "Frequency": "Once daily in the morning"
+  },
+  {
+    "MedicalRecordId": 4,
+    "MedicationId": 9,
+    "Dosage": "20 mg",
+    "Frequency": "Once daily before breakfast"
+  },
+  {
+    "MedicalRecordId": 4,
+    "MedicationId": 10,
+    "Dosage": "10 mg",
+    "Frequency": "Once daily at night"
+  }
+]

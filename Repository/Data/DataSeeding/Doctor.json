@@ -1,0 +1,82 @@
+[
+  {
+    "Name": "Dr. Ahmed Samir",
+    "Email": "ahmed.samir@hospital.com",
+    "Phone": "+201001112223",
+    "Specialty": "Cardiology",
+    "DepartmentId": 1,
+    "AppointmentsId": 1
+  },
+  {
+    "Name": "Dr. Mona Nabil",
+    "Email": "mona.nabil@hospital.com",
+    "Phone": "+201112223334",
+    "Specialty": "Neurology",
+    "DepartmentId": 2,
+    "AppointmentsId": 2
+  },
+  {
+    "Name": "Dr. Karim Hassan",
+    "Email": "karim.hassan@hospital.com",
+    "Phone": "+201223334445",
+    "Specialty": "Pediatrics",
+    "DepartmentId": 3,
+    "AppointmentsId": 3
+  },
+  {
+    "Name": "Dr. Layla Fathy",
+    "Email": "layla.fathy@hospital.com",
+    "Phone": "+201334445556",
+    "Specialty": "Orthopedics",
+    "DepartmentId": 4,
+    "AppointmentsId": 4
+  },
+  {
+    "Name": "Dr. Omar Khaled",
+    "Email": "omar.khaled@hospital.com",
+    "Phone": "+201445556667",
+    "Specialty": "Dermatology",
+    "DepartmentId": 5,
+    "AppointmentsId": 5
+  },
+  {
+    "Name": "Dr. Youssef Adel",
+    "Email": "youssef.adel@hospital.com",
+    "Phone": "+201556667778",
+    "Specialty": "Radiology",
+    "DepartmentId": 6,
+    "AppointmentsId": 6
+  },
+  {
+    "Name": "Dr. Sara Tarek",
+    "Email": "sara.tarek@hospital.com",
+    "Phone": "+201667778889",
+    "Specialty": "ENT",
+    "DepartmentId": 7,
+    "AppointmentsId": 7
+  },
+  {
+    "Name": "Dr. Hany Mostafa",
+    "Email": "hany.mostafa@hospital.com",
+    "Phone": "+201778889990",
+    "Specialty": "Oncology",
+    "DepartmentId": 8,
+    "AppointmentsId": 8
+  },
+  {
+    "Name": "Dr. Rania Farouk",
+    "Email": "rania.farouk@hospital.com",
+    "Phone": "+201889990011",
+    "Specialty": "Urology",
+    "DepartmentId": 9,
+    "AppointmentsId": 9
+  },
+  {
+    "Name": "Dr. Mahmoud Fathi",
+    "Email": "mahmoud.fathi@hospital.com",
+    "Phone": "+201990011122",
+    "Specialty": "Emergency Medicine",
+    "DepartmentId": 10,
+    "AppointmentsId": 10
+  }
+]

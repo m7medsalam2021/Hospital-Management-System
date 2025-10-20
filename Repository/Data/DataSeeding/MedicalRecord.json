@@ -1,0 +1,26 @@
+[
+  {
+    "Diagnosis": "Migraine",
+    "Prescription": "Imigran 50mg when needed",
+    "PatientId": 2,
+    "DoctorId": 2
+  },
+  {
+    "Diagnosis": "Skin allergy",
+    "Prescription": "Antihistamine once daily",
+    "PatientId": 5,
+    "DoctorId": 5
+  },
+  {
+    "Diagnosis": "Lung cancer follow-up",
+    "Prescription": "Chemotherapy review and CT scan",
+    "PatientId": 8,
+    "DoctorId": 8
+  },
+  {
+    "Diagnosis": "Severe dehydration",
+    "Prescription": "IV fluids and monitoring",
+    "PatientId": 10,
+    "DoctorId": 10
+  }
+]

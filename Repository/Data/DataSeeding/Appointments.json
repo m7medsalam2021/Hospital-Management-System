@@ -1,0 +1,63 @@
+[
+  {
+    "AppointmentDate": "2025-01-10T09:00:00",
+    "Status": "Scheduled",
+    "DoctorId": 1,
+    "PatientId": 1 
+
+  },
+  {
+    "AppointmentDate": "2025-01-12T14:30:00",
+    "Status": "Completed",
+    "DoctorId": 2,
+    "PatientId": 2
+  },
+  {
+    "AppointmentDate": "2025-01-15T11:00:00",
+    "Status": "Cancelled",
+    "DoctorId": 3,
+    "PatientId": 3
+  },
+  {
+    "AppointmentDate": "2025-02-01T10:15:00",
+    "Status": "Scheduled",
+    "DoctorId": 4,
+    "PatientId": 4
+  },
+  {
+    "AppointmentDate": "2025-02-05T16:00:00",
+    "Status": "Completed",
+    "DoctorId": 5,
+    "PatientId": 5
+  },
+  {
+    "AppointmentDate": "2025-02-10T09:45:00",
+    "Status": "Scheduled",
+    "DoctorId": 6,
+    "PatientId": 6
+  },
+  {
+    "AppointmentDate": "2025-02-18T13:30:00",
+    "Status": "Cancelled",
+    "DoctorId": 7,
+    "PatientId": 7
+  },
+  {
+    "AppointmentDate": "2025-03-01T08:30:00",
+    "Status": "Completed",
+    "DoctorId": 8,
+    "PatientId": 8
+  },
+  {
+    "AppointmentDate": "2025-03-07T15:00:00",
+    "Status": "Scheduled",
+    "DoctorId": 9,
+    "PatientId": 9
+  },
+  {
+    "AppointmentDate": "2025-03-10T11:30:00",
+    "Status": "Completed",
+    "DoctorId": 10,
+    "PatientId": 10
+  }
+]

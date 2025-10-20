@@ -1,0 +1,33 @@
+﻿@using Hospital.Core.Entities
+@model Department
+@{
+    ViewData["Title"] = "Update";
+}
+
+<h1>Update Department</h1>
+<hr />
+<br />
+
+
+<form asp-action="Update">
+
+    <div class="form-group">
+        <label asp-for="Name" class="col-form-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <br /><div class="form-group">
+        <label asp-for="Location" class="col-form-label"></label>
+        <input asp-for="Location" class="form-control" />
+        <span asp-validation-for="Location" class="text-danger"></span>
+    </div>
+    <br />
+
+    <input type="submit" value="Save" class="btn btn-primary" /> |
+    <a asp-action="Index" class="btn btn-light">Back To List</a>
+</form>
+
+@section Scripts {
+
+    <partial name="_ValidationScriptsPartial" />
+}

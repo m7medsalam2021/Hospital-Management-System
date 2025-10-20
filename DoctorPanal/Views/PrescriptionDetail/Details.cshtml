@@ -1,0 +1,35 @@
+﻿@using Hospital.Core.Dtos
+@model PrescriptionDetailDto
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+<h1 class="alert alert-warning">PrescriptionDetail Details</h1>
+
+<div class="card p-4 shadow-sm">
+    <dl class="row">
+        <dt class="col-sm-3">ID</dt>
+        <dd class="col-sm-9">@Model.Id</dd>
+
+        <dt class="col-sm-3">Dosage</dt>
+        <dd class="col-sm-9">@Model.Dosage</dd>
+
+        <dt class="col-sm-3">Frequency</dt>
+        <dd class="col-sm-9">@Model.Frequency</dd>
+
+        <dt class="col-sm-3">Medication</dt>
+        <dd class="col-sm-9">@Model.MedicationId</dd>
+
+        <dt class="col-sm-3">MedicalRecord</dt>
+        <dd class="col-sm-9">@Model.MedicalRecordId</dd>
+
+
+    </dl>
+</div>
+
+<br />
+
+<a asp-action="Update" class="btn btn-success" asp-route-id="@Model.Id">Update</a> |
+<a asp-action="Index" class="btn btn-light">Back To List</a>

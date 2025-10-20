@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "Cardiology",
+    "Location": "Building A - Floor 2"
+  },
+  {
+    "Name": "Neurology",
+    "Location": "Building B - Floor 1"
+  },
+  {
+    "Name": "Pediatrics",
+    "Location": "Building C - Floor 3"
+  },
+  {
+    "Name": "Orthopedics",
+    "Location": "Building D - Floor 1"
+  },
+  {
+    "Name": "Dermatology",
+    "Location": "Building A - Floor 1"
+  },
+  {
+    "Name": "Radiology",
+    "Location": "Building E - Floor 2"
+  },
+  {
+    "Name": "ENT",
+    "Location": "Building C - Floor 1"
+  },
+  {
+    "Name": "Oncology",
+    "Location": "Building F - Floor 2"
+  },
+  {
+    "Name": "Urology",
+    "Location": "Building B - Floor 3"
+  },
+  {
+    "Name": "Emergency",
+    "Location": "Main Building - Ground Floor"
+  }
+]

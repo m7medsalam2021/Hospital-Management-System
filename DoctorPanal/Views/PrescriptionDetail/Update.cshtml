@@ -1,0 +1,43 @@
+﻿@using Hospital.Core.Dtos
+@model PrescriptionDetailDto
+@{
+    ViewData["Title"] = "Update";
+}
+
+<h1>Update PrescriptionDetail</h1>
+<hr />
+<br />
+
+
+<form asp-action="Update">
+
+    <div class="form-group">
+        <label asp-for="Dosage" class="col-form-label"></label>
+        <input asp-for="Dosage" class="form-control" />
+        <span asp-validation-for="Dosage" class="text-danger"></span>
+    </div>
+    <br /><div class="form-group">
+        <label asp-for="Frequency" class="col-form-label"></label>
+        <input asp-for="Frequency" class="form-control" />
+        <span asp-validation-for="Frequency" class="text-danger"></span>
+    </div>
+    <br />    <br /><div class="form-group">
+        <label asp-for="MedicalRecord" class="col-form-label"></label>
+        <input asp-for="MedicalRecordId" class="form-control" />
+        <span asp-validation-for="MedicalRecordId" class="text-danger"></span>
+    </div>
+    <br />    <br /><div class="form-group">
+        <label asp-for="Medication" class="col-form-label"></label>
+        <input asp-for="MedicationId" class="form-control" />
+        <span asp-validation-for="MedicationId" class="text-danger"></span>
+    </div>
+    <br />
+
+    <input type="submit" value="Save" class="btn btn-primary" /> |
+    <a asp-action="Index" class="btn btn-light">Back To List</a>
+</form>
+
+@section Scripts {
+
+    <partial name="_ValidationScriptsPartial" />
+}

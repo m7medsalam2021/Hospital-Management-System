@@ -1,0 +1,42 @@
+﻿@using Hospital.Core.Entities
+@model MedicalRecord
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1 class="alert alert-primary">Add New MedicalRecord</h1>
+
+<br />
+
+<form asp-action="Create" method="post">
+
+    <div class="form-group">
+        <label asp-for="Diagnosis" class="col-form-label"></label>
+        <input asp-for="Diagnosis" class="form-control" />
+        <span asp-validation-for="Diagnosis" class="text-danger"></span>
+    </div>
+    <br />
+    <div class="form-group">
+        <label asp-for="Prescription" class="col-form-label"></label>
+        <input asp-for="Prescription" class="form-control" />
+        <span asp-validation-for="Prescription" class="text-danger"></span>
+    </div>
+    <br /><div class="form-group">
+        <label asp-for="Doctor" class="col-form-label"></label>
+        <input asp-for="DoctorId" class="form-control" />
+        <span asp-validation-for="DoctorId" class="text-danger"></span>
+    </div>
+    <br /><div class="form-group">
+        <label asp-for="Patient" class="col-form-label"></label>
+        <input asp-for="PatientId" class="form-control" />
+        <span asp-validation-for="PatientId" class="text-danger"></span>
+    </div>
+    <br />
+    <input type="submit" value="Submit" class="btn btn-primary" /> |
+    <a asp-action="Index" class="btn btn-light">Back To List</a>
+
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

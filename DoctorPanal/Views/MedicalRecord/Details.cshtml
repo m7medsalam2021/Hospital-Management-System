@@ -1,0 +1,35 @@
+﻿@using Hospital.Core.Entities
+@model MedicalRecord
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+<h1 class="alert alert-warning">Medical Record Details</h1>
+
+<div class="card p-4 shadow-sm">
+    <dl class="row">
+        <dt class="col-sm-3">ID</dt>
+        <dd class="col-sm-9">@Model.Id</dd>
+
+        <dt class="col-sm-3">Diagnosis</dt>
+        <dd class="col-sm-9">@Model.Diagnosis</dd>
+
+        <dt class="col-sm-3">Prescription</dt>
+        <dd class="col-sm-9">@Model.Prescription</dd>
+
+        <dt class="col-sm-3">Patient</dt>
+        <dd class="col-sm-9">@Model.PatientId</dd>
+
+        <dt class="col-sm-3">Doctor</dt>
+        <dd class="col-sm-9">@Model.DoctorId</dd>
+
+
+    </dl>
+</div>
+
+<br />
+
+<a asp-action="Update" class="btn btn-success" asp-route-id="@Model.Id">Update</a> |
+<a asp-action="Index" class="btn btn-light">Back To List</a>

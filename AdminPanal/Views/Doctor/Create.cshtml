@@ -1,0 +1,49 @@
+﻿@using Hospital.Core.Dtos
+@using Hospital.Core.Entities
+@model DoctorsDto
+
+@{
+    ViewData["Title"] = "Create"; 
+
+}
+
+<h1 class="alert alert-primary">Add New Doctor</h1>
+
+<br />
+
+<form asp-action="Create" enctype="multipart/form-data">
+
+    <div class="form-group">
+        <label asp-for="Name" class="col-form-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <br />
+    <div class="form-group">
+        <label asp-for="Email" class="col-form-label"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <br /> <div class="form-group">
+        <label asp-for="Phone" class="col-form-label"></label>
+        <input asp-for="Phone" class="form-control" />
+        <span asp-validation-for="Phone" class="text-danger"></span>
+    </div>
+    <br />    <br /> <div class="form-group">
+        <label asp-for="Specialty" class="col-form-label"></label>
+        <input asp-for="Specialty" class="form-control" />
+        <span asp-validation-for="Specialty" class="text-danger"></span>
+    </div>
+    <br />
+    <div class="form-group">
+        <label asp-for="Departments" class="col-form-label"></label>
+        <select asp-for="DepartmentId" asp-items="ViewBag.Departments" class="form-control">
+            <option value="@null" selected disabled>-- Select Department --</option>
+        </select>
+        <span asp-validation-for="Departments" class="text-danger"></span>
+    </div>
+    <br />
+    <input type="submit" value="Submit" class="btn btn-primary" /> |
+    <a asp-action="Index" class="btn btn-light">Back To List</a>
+
+</form>

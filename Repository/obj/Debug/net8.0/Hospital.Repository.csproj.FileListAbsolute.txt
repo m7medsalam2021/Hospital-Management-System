@@ -1,0 +1,17 @@
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Repository\bin\Debug\net8.0\Hospital.Repository.deps.json
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Repository\bin\Debug\net8.0\Hospital.Repository.runtimeconfig.json
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Repository\bin\Debug\net8.0\Hospital.Repository.dll
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Repository\bin\Debug\net8.0\Hospital.Repository.pdb
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Repository\bin\Debug\net8.0\Hospital.Core.dll
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Repository\bin\Debug\net8.0\Hospital.Core.pdb
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Repository\obj\Debug\net8.0\Hospital.Repository.csproj.AssemblyReference.cache
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Repository\obj\Debug\net8.0\Hospital.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Repository\obj\Debug\net8.0\Hospital.Repository.AssemblyInfoInputs.cache
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Repository\obj\Debug\net8.0\Hospital.Repository.AssemblyInfo.cs
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Repository\obj\Debug\net8.0\Hospital.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Repository\obj\Debug\net8.0\Hospital.0D63F4EC.Up2Date
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Repository\obj\Debug\net8.0\Hospital.Repository.dll
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Repository\obj\Debug\net8.0\refint\Hospital.Repository.dll
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Repository\obj\Debug\net8.0\Hospital.Repository.pdb
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Repository\obj\Debug\net8.0\Hospital.Repository.genruntimeconfig.cache
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Repository\obj\Debug\net8.0\ref\Hospital.Repository.dll

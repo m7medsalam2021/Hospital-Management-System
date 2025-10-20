@@ -1,0 +1,45 @@
+﻿@using Hospital.Core.Entities
+@model IReadOnlyList<Department>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>All Departments</h1>
+<hr />
+<br />
+
+<a asp-action="Create" class="btn btn-outline-primary">Add New Department</a>
+
+@if (Model != null && Model.Any())
+{
+    <table class="mt-3 table table-bordered table-striped table-hover dt-responsive nowrap">
+        <thead class="bg-dark text-white text-center">
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Location</th>
+                <th>Details</th>
+                <th>Update</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var department in Model)
+            {
+                <tr class="text-center align-middle">
+                    <td>@department.Id</td>
+                    <td>@department.Name</td>
+                    <td>@department.Location</td>
+                    <partial name="_ButtonsPartialView" model="@department.Id.ToString()" />
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="mt-3 p-3 alert-warning">
+        <h2>There's No Departments</h2>
+    </div>
+}

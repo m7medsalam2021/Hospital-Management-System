@@ -1,0 +1,17 @@
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Service\bin\Debug\net8.0\Hospital.Service.deps.json
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Service\bin\Debug\net8.0\Hospital.Service.dll
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Service\bin\Debug\net8.0\Hospital.Service.pdb
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Service\obj\Debug\net8.0\Hospital.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Service\obj\Debug\net8.0\Hospital.Service.AssemblyInfoInputs.cache
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Service\obj\Debug\net8.0\Hospital.Service.AssemblyInfo.cs
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Service\obj\Debug\net8.0\Hospital.Service.csproj.CoreCompileInputs.cache
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Service\obj\Debug\net8.0\Hospital.Service.dll
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Service\obj\Debug\net8.0\refint\Hospital.Service.dll
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Service\obj\Debug\net8.0\Hospital.Service.pdb
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Service\obj\Debug\net8.0\ref\Hospital.Service.dll
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Service\bin\Debug\net8.0\Hospital.Core.dll
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Service\bin\Debug\net8.0\Hospital.Repository.dll
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Service\bin\Debug\net8.0\Hospital.Core.pdb
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Service\bin\Debug\net8.0\Hospital.Repository.pdb
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Service\obj\Debug\net8.0\Hospital.Service.csproj.AssemblyReference.cache
+C:\Users\Sallam\Source\Repos\HospitalManagementSystem\Service\obj\Debug\net8.0\Hospital.F1CAE1BF.Up2Date

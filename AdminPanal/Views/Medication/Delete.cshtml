@@ -1,0 +1,30 @@
+﻿@using Hospital.Core.Entities
+@model Medication
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete Medication</h1>
+
+<h1 class="alert alert-danger">Are you sure to Delete this Medication?</h1>
+
+<form asp-action="Delete">
+
+
+    <div class="form-group">
+        <label asp-for="Name" class="col-form-label"></label>
+        <input asp-for="Name" class="form-control" readonly />
+    </div>
+    <br /> <div class="form-group">
+        <label asp-for="Description" class="col-form-label"></label>
+        <input asp-for="Description" class="form-control" readonly />
+    </div>
+    <br />   <br /> <div class="form-group">
+        <label asp-for="Quantity" class="col-form-label"></label>
+        <input asp-for="Quantity" class="form-control" readonly />
+    </div>
+
+
+    <input type="submit" value="Delete" class="btn btn-danger" /> |
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

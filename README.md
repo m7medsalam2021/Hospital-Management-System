@@ -46,13 +46,16 @@ The system is composed of **one main API** and **three MVC panels**, all sharing
 ## 📂 Project Structure
 HospitalManagementSystem.sln
 │
+
 ├── Hospital.Core
+
 │ ├── Entities
 │ ├── Dtos
 │ ├── IServices
 │ ├── IRepositories
 │ └── Specifications
 │
+
 ├── Hospital.Repository
 │ ├── Data
 │ ├── Identity

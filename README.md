@@ -159,8 +159,7 @@ The system uses **JWT Authentication** with role-based access.
 
 Mohamed Sallam
 💼 Backend Developer | ASP.NET Core | Clean Architecture Enthusiast
-📧 [Your Email Here]
-🔗 [GitHub Profile Link]
+
 
 🖼 Future Enhancements
 
